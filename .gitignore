@@ -41,6 +41,12 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -128,3 +134,19 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
